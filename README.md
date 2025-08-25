@@ -32,7 +32,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://uqerik.github.io/Recipe-page/#]
 
 ## My process
 
@@ -72,7 +72,7 @@ Been able to style CSS such that they can be reusable across my webpage by simpl
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@uqerik](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@e_k0she](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@uqerik](https://www.frontendmentor.io/profile/uqerik)
+- Twitter - [@e_k0she](https://x.com/e_k0she)
 
 
