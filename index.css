@@ -1,0 +1,165 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+@import url(https://fonts.google.com/specimen/Outfit);
+
+:root{
+    --h2-font: youngserif;
+    --body-font: outfit;
+    --h2-color: Brown 800: hsl(14, 45%, 36%);
+    --white: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+html,body{
+    font-size: 16px;
+    font-family: var(--body-font);
+    color: var(--Stone-600);
+    background-color: var(--white);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+#omelette{
+    min-width: 200px;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+h1{
+    font-family: var(--h2-font);
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: var(--Stone-900);
+}
+
+.box p{
+    line-height: 28px;
+}
+
+.section{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.ingredients, .instructions{
+    border-bottom: solid 1px var(--Stone-100);
+}
+
+.ingredients li::marker, .instructions li::marker{
+    color: var(--Brown-800);
+}
+
+.prep-time{
+    background-color: var(--Rose-50);
+    padding: 20px;
+    margin: 0 0 30px
+}
+
+.prep-title{
+    font-size: 18px;
+    color: var(--Rose-800);
+    margin-bottom: 15px;
+    font-family: var(--body-font);
+}
+
+.prep-time ul{
+    margin: 0 30px ;
+    line-height: 28px;
+    list-style-type: disc;
+}
+
+.prep-time li::marker{
+    color: var(--Rose-800);
+}
+
+h2{
+    font-family: var(--h2-font);
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: var(--Brown-800);
+}
+
+.section ul, .section ol{
+    margin: 0 25px;
+    line-height: 28px;
+}
+
+.section ul{
+    list-style-type: disc;
+}
+
+.section li{
+    margin-bottom: 10px;
+}
+
+.section span{
+    font-weight: 700;
+}
+
+.para{
+    margin-bottom: 15px;
+}
+
+.nutri-value{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    padding: 0 30px 15px;
+    border-bottom: solid 1px var(--Stone-100);
+}
+
+.nutri-value span{
+    color: var(--Brown-800);
+    margin-left: 20px;
+}
+
+@media (min-width: 768px){
+    .header-image{
+        padding: 30px;
+    }
+
+    #omelette{
+        border-radius: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
