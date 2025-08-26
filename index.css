@@ -1,5 +1,4 @@
-@import url('https://fonts.google.com/specimen/Young+Serif');
-@import url('https://fonts.google.com/specimen/Outfit');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 :root{
     --h2-font: youngserif;
