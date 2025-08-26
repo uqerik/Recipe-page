@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-
 :root{
-    --h2-font: youngserif;
+    --h2-font: young serif;
     --body-font: outfit;
     --h2-color: Brown 800: hsl(14, 45%, 36%);
     --white: hsl(0, 0%, 100%);
